@@ -2,7 +2,6 @@
   <Places>
     <template #country="{id, place, log}">
       {{id}}{{place}}
-
       <button @click="log">Click</button>
     </template>
 
